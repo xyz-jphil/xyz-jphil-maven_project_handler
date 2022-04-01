@@ -1,0 +1,40 @@
+.tree-table-row-cell:odd {
+    -fx-background-color: #f0f0f0;
+    -fx-text-fill: black;
+}
+
+.tree-table-row-cell:selected {
+    -fx-background-color: #3ea5c9;
+}
+
+#copyPathCol > .button {
+    -fx-background-color: darkcyan; 
+    -fx-text-fill: white;
+}
+
+#intellijCol > .button {
+    -fx-background-color: crimson; 
+    -fx-text-fill: white;
+}
+
+#nbCol > .button {
+    -fx-background-color: #188eba; 
+    -fx-text-fill: white;
+}
+
+
+/*#editPomCol > .button {
+    -fx-background-color: #188eba; 
+    -fx-text-fill: white;
+}*/
+
+
+#copyDependencyCol > .button {
+    -fx-background-color: #ff6666; 
+    -fx-text-fill: white;
+}
+
+#cmdCol > .button {
+    -fx-background-color: #0f0606; 
+    -fx-text-fill: white;
+}
